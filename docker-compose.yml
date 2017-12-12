@@ -1,0 +1,12 @@
+version: "2"
+services: 
+
+  alpine_ipproxypool:
+    # image: alpine:latest
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    container_name: alpine_ipproxypool
+    # volumes:
+    #   - ./logs:/var/log
+    restart: always
