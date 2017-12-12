@@ -12,4 +12,4 @@ WORKDIR /opt/IPProxyPool
 
 EXPOSE 8888
 
-CMD ["python", "IPProxys.py"]
+CMD ["python", "IPProxy.py"]
